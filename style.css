@@ -98,6 +98,7 @@ margin-top: 20px;
 background: rgba(255,255,255,0.05);
 padding: 10px;
 border-radius: 12px;
+border: 1px solid rgba(255,255,255,0.2);
 backdrop-filter: blur(10px);
 }
 
@@ -123,13 +124,19 @@ margin-top: 20px;
 }
 
 #grabBtn:hover {
-background: rgba(255, 255, 255, 0.2);
+background: rgba(255, 0, 21, 0.76);
 transform: scale(1.05);
 transition: ease-in-out 0.2s;
 }
 
 .created-by {
-margin-top: -50px;
+font-family: 'Poppins', sans-serif;
+margin-top: -20px;
+font-size: 1.15em;
+}
+
+.fa-brands.fa-github {
+  font-size: 1.15em;
 }
 
 .created-by a {
@@ -142,7 +149,7 @@ border: 1px solid rgba(255, 255, 255, 0.342);
 }
 
 .created-by a:hover {
-background: rgba(255, 255, 255, 0.5);
+background: rgba(17, 17, 17, 0.5);
 color: white;
 transform: scale(1.05);
 transition: ease-in-out 0.2s;
@@ -184,8 +191,9 @@ transform: scale(1.1); /* extra safety */
 }
 
 
-
-
+.download-btn {
+  font-weight: 700;
+}
 
 
 
