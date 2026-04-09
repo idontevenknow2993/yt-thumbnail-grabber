@@ -111,7 +111,28 @@ display: inline-block;
 margin-top: 20px;
 }
 
+#grabBtn:hover {
+background: rgba(255, 255, 255, 0.2);
+transform: scale(1.05);
+transition: ease-in-out 0.2s;
+}
 
+.created-by a {
+font-weight: 700;
+margin-top: 30px;
+color: rgba(255, 255, 255, 0.863);
+background: rgba(255, 255, 255, 0.342);
+z-index: 1;
+border: 1px solid rgba(255, 255, 255, 0.342);
+}
+
+.created-by a:hover {
+background: rgba(255, 255, 255, 0.5);
+color: white;
+transform: scale(1.05);
+transition: ease-in-out 0.2s;
+border: 1px solid rgba(255, 255, 255, 0.5);
+}
 
 #bg {
 position: fixed;
